@@ -76,6 +76,8 @@
   #include "custom_board.h"
 #elif defined(BOARD_CUSTBEACON01)
   #include "custbeacon01.h"
+#elif defined(BOARD_SENSOR_TAG)
+  #include "sensortag.h"
 #else
 #error "Board is not defined"
 
