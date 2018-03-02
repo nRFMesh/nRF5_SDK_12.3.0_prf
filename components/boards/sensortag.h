@@ -81,10 +81,10 @@ extern "C" {
 #define BSP_BUTTON_0   BUTTON_0
 #define BSP_BUTTON_1   BUTTON_1
 
-#define I2C_SCL 16
-#define I2C_SDA 15
+#define I2C_SCL 10
+#define I2C_SDA  9
 
-#define AP3216C_INT 17
+#define AP3216C_INT 11
 
 // Low frequency clock source to be used by the SoftDevice
 #ifdef S210
